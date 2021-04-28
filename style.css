@@ -17,8 +17,9 @@ div.wrap {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  min-height: 90%;
+  min-height: 80%;
   width: 90%;
+
   background-color: #fffff3;
   border-radius: 10px;
   box-shadow: 0 0 3px;
