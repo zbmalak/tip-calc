@@ -1,0 +1,97 @@
+/* font-family: 'Poppins', sans-serif; */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #a593e0;
+  font-family: "Poppins", sans-serif;
+  color: #566270;
+}
+
+div.wrap {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-height: 90%;
+  width: 90%;
+  background-color: #fffff3;
+  border-radius: 10px;
+  box-shadow: 0 0 3px;
+}
+
+header {
+  height: 20%;
+  width: 100%;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 20px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 30px;
+}
+
+form.form {
+  display: flex;
+  flex-direction: column;
+  height: 80%;
+  width: 90%;
+  margin: 50px auto 0;
+  padding: 10px;
+  background-color: #e0e3da;
+  border-radius: 10px;
+}
+
+span.input--name {
+  font-size: 20px;
+  padding: 10px;
+}
+
+input.value {
+  height: 40px;
+  line-height: 40px;
+  padding: 0 5px;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  border-radius: 10px;
+}
+
+select.tip--percent {
+  height: 40px;
+  line-height: 40px;
+  padding: 0 5px;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  border-radius: 10px;
+}
+
+button.submit--btn {
+  height: 40px;
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+  line-height: 25px;
+  border-radius: 10px;
+  margin: 20px 0 0;
+}
+
+div.result--container {
+  font-weight: 600;
+  text-align: center;
+  margin-top: 60px;
+  height: 10%;
+  font-size: 25px;
+}
+
+@media (min-width: 640px) {
+  div.wrap {
+    position: absolute;
+    min-height: 80%;
+    width: 50%;
+  }
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;600&display=swap"
+      rel="stylesheet"
+    />
+    <script defer src="script.js"></script>
+    <title>Tip calculator</title>
+  </head>
+  <body>
+    <div class="wrap">
+      <header>
+        <h1>tip calculator</h1>
+      </header>
+
+      <form class="form">
+        <span class="input--name">Enter your bill</span>
+        <input type="number" class="value" placeholder="enter your bill" />
+        <span class="input--name">Choose your tip</span>
+        <select class="tip--percent" name="Choose your option">
+          <option value="0.1">10%</option>
+          <option value="0.15">15%</option>
+          <option value="0.2">20%</option>
+        </select>
+
+        <button class="submit--btn">Calulate!</button>
+      </form>
+      <div class="result--container"></div>
+    </div>
+  </body>
+</html>
